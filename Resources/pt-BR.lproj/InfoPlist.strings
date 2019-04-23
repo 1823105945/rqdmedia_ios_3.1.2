@@ -1,0 +1,4 @@
+"NSPhotoLibraryUsageDescription" = "Para salvar o vídeo precisamos acessar as Imagens da Câmera";
+"NSPhotoLibraryAddUsageDescription" = "Para salvar o vídeo precisamos acessar as Imagens da Câmera";
+"NSFaceIDUsageDescription" = "Habilitar acesso ao Face ID para desbloquear o rqdMedia";
+

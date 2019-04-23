@@ -1,0 +1,4 @@
+"NSPhotoLibraryUsageDescription" = "Для сохранения видео нам понадобится доступ к вашей «Фотоплёнке».";
+"NSPhotoLibraryAddUsageDescription" = "Для сохранения видео нам понадобится доступ к вашей «Фотоплёнке».";
+"NSFaceIDUsageDescription" = "Разрешить разблокировать rqdMedia с помощью Face ID";
+

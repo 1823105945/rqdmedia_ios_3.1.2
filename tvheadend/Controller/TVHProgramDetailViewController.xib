@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TVHProgramDetailViewController">
+            <connections>
+                <outlet property="channelTitle" destination="iCj-NT-vnk" id="cfT-op-3Qc"/>
+                <outlet property="programImage" destination="X07-Vg-vcC" id="1DI-k7-hPR"/>
+                <outlet property="programTitle" destination="Mff-yX-e1k" id="J7W-mJ-lhk"/>
+                <outlet property="record" destination="xuL-Ht-whk" id="ICF-og-soM"/>
+                <outlet property="segmentedControl" destination="TbC-q6-dyC" id="zG4-D2-gIc"/>
+                <outlet property="tableView" destination="iKQ-HP-xtl" id="VcM-IC-hbq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Program Title gerewegwgewgewwegewgewgewgegwwegwegewgweg" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mff-yX-e1k">
+                    <rect key="frame" x="83" y="30" width="277" height="44"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="highlightedColor" red="0.66666668650000005" green="0.66666668650000005" blue="0.66666668650000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X07-Vg-vcC">
+                    <rect key="frame" x="15" y="20" width="60" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Qjq-P4-K8C"/>
+                        <constraint firstAttribute="width" constant="60" id="SHp-0s-RE4"/>
+                    </constraints>
+                </imageView>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TbC-q6-dyC" customClass="SDSegmentedControl">
+                    <rect key="frame" x="0.0" y="107" width="375" height="51"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="QWN-Lv-MKY"/>
+                    </constraints>
+                    <segments>
+                        <segment title="Details"/>
+                        <segment title="See Again"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentedDidChange:" destination="-1" eventType="valueChanged" id="R3T-KF-NUm"/>
+                    </connections>
+                </segmentedControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuL-Ht-whk" customClass="TVHButton">
+                    <rect key="frame" x="277" y="74" width="78" height="25"/>
+                    <accessibility key="accessibilityConfiguration" label="Auto Record"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="25" id="Sz2-Py-UyW"/>
+                        <constraint firstAttribute="width" constant="78" id="tgK-Co-aDu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <state key="normal" title="AutoRec">
+                        <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="addAutoRecordToTVHeadend:" destination="-1" eventType="touchUpInside" id="bzw-RH-o71"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCj-NT-vnk">
+                    <rect key="frame" x="83" y="79" width="29" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.33333334329999997" green="0.33333334329999997" blue="0.33333334329999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <size key="shadowOffset" width="0.0" height="1"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iKQ-HP-xtl">
+                    <rect key="frame" x="0.0" y="157" width="375" height="510"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Gj4-V6-djI"/>
+                        <outlet property="delegate" destination="-1" id="XrV-LK-aXL"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Mff-yX-e1k" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="10" id="8RX-bk-YFg"/>
+                <constraint firstItem="X07-Vg-vcC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="15" id="D8K-Di-957"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="iKQ-HP-xtl" secondAttribute="trailing" id="DBL-0Z-DQj"/>
+                <constraint firstItem="iCj-NT-vnk" firstAttribute="top" secondItem="Mff-yX-e1k" secondAttribute="bottom" constant="5" id="GoD-Uv-EW9"/>
+                <constraint firstItem="iKQ-HP-xtl" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="HWZ-MA-hqY"/>
+                <constraint firstItem="xuL-Ht-whk" firstAttribute="top" secondItem="Mff-yX-e1k" secondAttribute="bottom" id="Ktu-uf-vyt"/>
+                <constraint firstItem="TbC-q6-dyC" firstAttribute="top" secondItem="xuL-Ht-whk" secondAttribute="bottom" constant="8" id="L9R-Jy-iuj"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="iKQ-HP-xtl" secondAttribute="bottom" id="SMG-Ek-2jm"/>
+                <constraint firstItem="iKQ-HP-xtl" firstAttribute="top" secondItem="TbC-q6-dyC" secondAttribute="bottom" id="aLj-Bu-Ue5"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Mff-yX-e1k" secondAttribute="trailing" constant="15" id="dY6-4t-LYI"/>
+                <constraint firstItem="TbC-q6-dyC" firstAttribute="trailing" secondItem="Q5M-cg-NOt" secondAttribute="trailing" id="jDf-88-juk"/>
+                <constraint firstItem="X07-Vg-vcC" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" id="nSU-jl-NTG"/>
+                <constraint firstItem="TbC-q6-dyC" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" id="om4-s4-tbu"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="xuL-Ht-whk" secondAttribute="trailing" constant="20" id="sV0-fS-0FI"/>
+                <constraint firstItem="iCj-NT-vnk" firstAttribute="leading" secondItem="X07-Vg-vcC" secondAttribute="trailing" constant="8" id="wEy-ry-SyT"/>
+                <constraint firstItem="Mff-yX-e1k" firstAttribute="leading" secondItem="X07-Vg-vcC" secondAttribute="trailing" constant="8" id="zai-gP-2Ie"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

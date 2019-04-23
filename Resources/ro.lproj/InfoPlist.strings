@@ -1,0 +1,4 @@
+"NSPhotoLibraryUsageDescription" = "Pentru a salva videoclipul, vom avea nevoie de acces la camera dvs. video";
+"NSPhotoLibraryAddUsageDescription" = "Pentru a salva videoclipul, vom avea nevoie de acces la camera dvs. video";
+"NSFaceIDUsageDescription" = "Enable access to Face ID to unlock rqdMedia";
+

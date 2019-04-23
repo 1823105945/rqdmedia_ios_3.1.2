@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AboutView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RQDTV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lhQ-r8-HsD">
+                    <rect key="frame" x="130" y="55" width="57" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.0.1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5kf-JU-qu5">
+                    <rect key="frame" x="130" y="109" width="33" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rqdMediaCone512x512.png" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Hv-ptf">
+                    <rect key="frame" x="10" y="40" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="59F-xt-tAU"/>
+                        <constraint firstAttribute="width" constant="100" id="Yqw-mz-IMe"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="润祺达科技有限公司成立于 2014 年 11 月，是一家提 供方案为主的技术型公司。致力于音视频设备和软件 的开发，生产和销售。目前主要是针对移动设备音视 频解决方案。产品包括手机、平板、网络盒子、电脑 用 移 动数字电视接收设备以及播放器软件。" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5l-6q-Vae">
+                    <rect key="frame" x="20" y="181" width="335" height="146"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="深圳市润祺达科技有限公司" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwH-NX-y88">
+                    <rect key="frame" x="83.5" y="160" width="208" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="lhQ-r8-HsD" firstAttribute="leading" secondItem="Whl-Hv-ptf" secondAttribute="trailing" constant="20" id="0mn-Kn-KAn"/>
+                <constraint firstItem="GwH-NX-y88" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ar4-ud-975"/>
+                <constraint firstItem="Whl-Hv-ptf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="BAy-uS-2JP"/>
+                <constraint firstItem="Whl-Hv-ptf" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="10" id="GUI-XQ-rcY"/>
+                <constraint firstItem="5kf-JU-qu5" firstAttribute="leading" secondItem="Whl-Hv-ptf" secondAttribute="trailing" constant="20" id="Sxv-ZJ-z7g"/>
+                <constraint firstItem="V5l-6q-Vae" firstAttribute="top" secondItem="GwH-NX-y88" secondAttribute="bottom" constant="20" id="TGM-6V-A5e"/>
+                <constraint firstItem="GwH-NX-y88" firstAttribute="top" secondItem="Whl-Hv-ptf" secondAttribute="bottom" constant="20" id="e8a-3N-QzB"/>
+                <constraint firstItem="V5l-6q-Vae" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="iNJ-NK-Iee"/>
+                <constraint firstItem="lhQ-r8-HsD" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="35" id="nD6-Td-Rcr"/>
+                <constraint firstItem="5kf-JU-qu5" firstAttribute="top" secondItem="lhQ-r8-HsD" secondAttribute="bottom" constant="33" id="qUH-04-ye7"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="V5l-6q-Vae" secondAttribute="trailing" constant="20" id="vAM-Mz-3tI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="47.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rqdMediaCone512x512.png" width="512" height="512"/>
+    </resources>
+</document>

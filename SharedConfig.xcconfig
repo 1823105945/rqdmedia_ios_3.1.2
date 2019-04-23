@@ -1,0 +1,20 @@
+///*****************************************************************************
+// * rqdMedia for iOS
+// *****************************************************************************
+// * Copyright (c) 2015 VideoLAN. All rights reserved.
+// * $Id$
+// *
+// * Authors: Tobias Conradi <videolan # tobias-conradi.de>
+// *
+// * Refer to the COPYING file of the official project for license.
+//*****************************************************************************/
+
+
+// Replace with your own reverse DNS name (not followed by a dot) before building.
+// The different target bundle identifer automatically use the identifier
+// Using com.example leads to com.example.rqdmedia-ios for the iOS target.
+
+BUNDLE_IDENTIFIER_PREFIX=com.runqida
+
+GROUP_IDENTIFIER=group.$(BUNDLE_IDENTIFIER_PREFIX).rqdrqdmedia
+KEYCHAIN_ACCESS_GROUP=$(AppIdentifierPrefix)$(BUNDLE_IDENTIFIER_PREFIX).rqdrqdmedia

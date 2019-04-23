@@ -1,0 +1,63 @@
+/*****************************************************************************
+ * Prefix header for all source files of the 'rqdmedia-ios' target
+ * rqdMedia for iOS
+ *****************************************************************************
+ * Copyright (c) 2013-2014 VideoLAN. All rights reserved.
+ * $Id$
+ *
+ * Authors: Felix Paul Kühne <fkuehne # videolan.org>
+ *
+ * Refer to the COPYING file of the official project for license.
+ *****************************************************************************/
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import <MobileVLCKit/MobileVLCKit.h>
+#import <MediaLibraryKit/MediaLibraryKit.h>
+
+#import "rqdMediaConstants.h"
+#import "UIColor+Presets.h"
+#import "UIBarButtonItem+Theme.h"
+#import "rqdMediaAlertView.h"
+#import "rqdMediaSidebarController.h"
+#import "UIViewController+rqdMediaAlert.h"
+
+#ifndef NDEBUG
+#define APLog(format, ...) NSLog(format, ## __VA_ARGS__)
+#else
+#define APLog(format, ...)
+#endif
+
+//
+// Prefix header for all source files of the 'TVHeadend iPhone Client' target in the 'TVHeadend iPhone Client' project
+//
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+//#define TESTING
+#define IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+#ifdef __IPHONE_7_0
+#define DEVICE_HAS_IOS7 SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0")
+#else
+#define DEVICE_HAS_IOS7 NO
+#endif
+#define SYSTEM_RUNS_IOS7_OR_LATER DEVICE_HAS_IOS7
+
+#ifdef __IPHONE_8_0
+#define DEVICE_HAS_IOS8 SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"8.0")
+#else
+#define DEVICE_HAS_IOS8 NO
+#endif
+
+
+

@@ -1,0 +1,820 @@
+"STORE_DESCRIPTION" = "rqdMedia for iOS is a port of the free rqdMedia media player to iPad, iPhone and iPod touch.\nIt can play all your movies, shows and music in most formats directly without conversion.\nIt allows file synchronization with Dropbox, GDrive, OneDrive, Box, iCloud Drive, iTunes, direct downloads and through WiFi sharing as well as streaming from SMB, FTP, UPnP/DLNA media servers and the web.\nrqdMedia offers support for advanced subtitles including full SSA compatibility, multi-track audio, and playback speed control.\n\nrqdMedia for iOS is completely free and open source.";
+
+"STORE_DESCRIPTION_TV" = "rqdMedia media player is a free and open source cross-platform multimedia player.\nIt can play all your movies, shows and music in most formats directly without conversion.\nIt allows streaming from cloud services (Dropbox, OneDrive, Box), Remote Playback from your Mac or PC via a Web UI as well as streaming from SMB, FTP, UPnP/DLNA media servers and the web.\nrqdMedia offers support for advanced subtitles including full SSA compatibility, multi-track audio, and playback speed control.\n\nrqdMedia for iOS is completely free and open source.\n\nMetadata and artwork are provided by TMDb and Hatchet, which are community maintained movie and music databases.";
+
+"CHOOSE_AUDIO_TRACK" = "Choose Audio Track";
+"CHOOSE_SUBTITLE_TRACK" = "Choose Subtitle Track";
+"OPEN_TRACK_PANEL" = "Open track selection";
+"CHOOSE_TITLE" = "Choose Title";
+"CHOOSE_CHAPTER" = "Choose Chapter";
+"CHAPTER_SELECTION_TITLE" = "Chapters";
+"TITLE" = "Title";
+"CHAPTER" = "Chapter";
+"MINIMIZE_PLAYBACK_VIEW" = "Minimize playback";
+"FULLSCREEN_PLAYBACK" = "Play in fullscreen";
+"TRACK_SELECTION" = "Track Selection";
+"AUDIO" = "Audio";
+"SUBTITLES" = "Subtitles";
+"LANGUAGE" = "Language";
+"MEDIA_INFO" = "Media Information";
+"VIDEO_DIMENSIONS" = "Video dimensions";
+"FORMAT_VIDEO_DIMENSIONS" = "%ix%i pixel";
+"FORMAT_AUDIO_TRACKS" = "%i audio tracks";
+"ONE_AUDIO_TRACK" = "One audio track";
+"FORMAT_SPU_TRACKS" = "%i subtitles tracks";
+"ONE_SPU_TRACK" = "One subtitles track";
+
+"PLAYING_EXTERNALLY_TITLE" = "TV Connected";
+"PLAYING_EXTERNALLY_TITLE_CHROMECAST" = "Chromecast Connected";
+"PLAYING_EXTERNALLY_DESC" = "This video is playing on the TV";
+
+"VFILTER_HUE" = "Hue";
+"VFILTER_CONTRAST" = "Contrast";
+"VFILTER_BRIGHTNESS" = "Brightness";
+"VFILTER_SATURATION" = "Saturation";
+"VFILTER_GAMMA" = "Gamma";
+
+"PREAMP" = "Preamp";
+"DB_FORMAT" = "%i dB";
+"CHOOSE_EQUALIZER_PROFILES" = "Choose Equalizer Profile";
+
+"PLAYBACK_FAILED" = "Playback failed";
+"PLEASE_WAIT" = "Please wait";
+"AR_CHANGED" = "Aspect Ratio: %@";
+"DEFAULT" = "Default";
+"FILL_TO_SCREEN" = "Crop to fill screen";
+"PLAYBACK_SPEED" = "Playback speed";
+"SPU_DELAY" = "Subtitles delay";
+"AUDIO_DELAY" = "Audio delay";
+"BUTTON_SLEEP_TIMER" = "Sleep Timer";
+"SLEEP_TIMER_UPDATED" = "Sleep Timer Updated";
+"CONTINUE_PLAYBACK" = "Continue playback?";
+"CONTINUE_PLAYBACK_LONG" = "Would you like to continue playback of \"%@\" where you left off?";
+
+"BUTTON_ALL" = "Select All";
+"BUTTON_BACK" = "Back";
+"BUTTON_EDIT" = "Edit";
+"BUTTON_DONE" = "Done";
+"BUTTON_CANCEL" = "Cancel";
+"BUTTON_SAVE" = "Save"; /* Save */
+"BUTTON_DOWNLOAD" = "Download";
+"BUTTON_DELETE" = "Delete";
+"BUTTON_OK" = "OK";
+"BUTTON_CONNECT" = "Connect";
+"BUTTON_RENAME" = "Rename";
+"BUTTON_LEARN_MORE" = "Learn More";
+"BUTTON_LOGOUT" = "Logout";
+"BUTTON_CONTINUE" = "Continue";
+"BUTTON_SET" = "Set";
+"BUTTON_RESET" = "Reset";
+"PRIVATE_PLAYBACK_TOGGLE" = "Private Playback";
+"SCAN_SUBTITLE_TOGGLE" = "Scan for Subtitles (http-only)";
+
+"BUTTON_RENDERER" = "Casting devices";
+"BUTTON_RENDERER_HINT" = "Show a menu of available casting devices";
+
+"UPGRADING_LIBRARY" = "Upgrading Media Library";
+"UNTITLED_SHOW" = "Untitled Show";
+"UNKNOWN" = "Unknown";
+
+"OPEN_NETWORK" = "Open Network Stream";
+"NETWORK_TITLE" = "Network Stream";
+"OPEN_NETWORK_HELP" = "Enter any HTTP, RTSP, RTMP, MMS, FTP or UDP/RTP address to open the stream directly.";
+"ABOUT_APP" = "About rqdMedia for iOS";
+"OPEN_rqdMedia_MENU" = "Open rqdMedia sidebar menu";
+"HTTP_UPLOAD_SERVER_OFF" = "Inactive Server";
+"HTTP_UPLOAD_NO_CONNECTIVITY" = "No active WiFi connection";
+"OPEN_STREAM_OR_DOWNLOAD" = "Would you like to download or play this URL?";
+"SHARED_rqdMedia_IOS_LIBRARY" = "Shared rqdMedia for iOS Library";
+"SMB_CIFS_FILE_SERVERS" = "File Servers (SMB)";
+
+"SMB_CIFS_FILE_SERVERS_SHORT" = "SMB";
+
+
+"HTTP_DOWNLOAD_FAILED" = "Download failed with HTTP code %i";
+"HTTP_FILE_CREATION_FAILED" = "File creation failed";
+"HTTP_DOWNLOAD_CANCELLED" = "Download canceled by user";
+
+"DOWNLOAD_FROM_HTTP_HELP" = "Enter an address to download the file to your %@.";
+"DOWNLOAD_FROM_HTTP" = "Downloads";
+"ERROR_NUMBER" = "Error %i occured";
+"DOWNLOAD_FAILED" = "Download failed";
+"FILE_NOT_SUPPORTED" = "File format not supported";
+"FILE_NOT_SUPPORTED_LONG" = "The file format used by %@ is not supported by this version of rqdMedia for iOS.";
+"SCHEME_NOT_SUPPORTED" = "Address scheme not supported";
+"SCHEME_NOT_SUPPORTED_LONG" = "The address scheme (%@) is not supported. Please use an address starting with HTTP, HTTPS or FTP.";
+"LIBRARY_ALL_FILES" = "All Files";
+"LIBRARY_MUSIC" = "Music Albums";
+"LIBRARY_SERIES" = "TV Shows";
+"LIBRARY_TRACKS" = "%i Tracks";
+"LIBRARY_SINGLE_TRACK" = "%i Track";
+"LIBRARY_EPISODES" = "%i Episodes, %i unread";
+"LIBRARY_SINGLE_EPISODE" = "%i Episode, %i unread";
+"LIBRARY_TRACK_N" = "Track %i";
+"LIBRARY_MINUTES_LEFT" = "%@m left";
+"RENAME_MEDIA_TO" = "Enter new name for %@";
+
+"FOLDER_EMPTY" = "Empty Folder";
+"FOLDER_EMPTY_LONG" = "To add files tap Edit, choose the files you want, click the folder-button and select this folder.";
+"FOLDER_INVALID_TYPE_TITLE" = "Invalid file types";
+"FOLDER_INVALID_TYPE_MESSAGE" = "You can only take two files to form a folder or add a single file to an existing folder.";
+"FOLDER_CHOOSE_NAME_TITLE" = "New Folder";
+"FOLDER_CHOOSE_NAME_MESSAGE" = "Enter a title for your folder";
+"FOLDER_NAME_PLACEHOLDER" = "Folder Title";
+"FOLDER_NAME_DUPLICATE_TITLE" = "Title exists";
+"FOLDER_NAME_DUPLICATE_MESSAGE" = "Please choose a different title";
+"SELECT_FOLDER" = "Select a Folder";
+
+"SHARING_ACTION_SHEET_TITLE_CHOOSE_FILE" = "Choose a file to open:";
+"SHARING_ACTIVITY_OPEN_IN_TITLE" = "Open In...";
+"SHARING_ERROR_NO_FILES" = "Could not find any files to share";
+"SHARING_ERROR_NO_APPLICATIONS" = "Could not find any applications to open this type of file";
+"SHARING_SUCCESS_CAMERA_ROLL" = "File was successfully saved to the Camera Roll";
+
+"SECTION_HEADER_LIBRARY" = "Media Library";
+"HEADER_TITLE_RENDERER" = "Select a casting device";
+"SECTION_HEADER_NETWORK" = "Network";
+
+"LOCAL_NETWORK" = "Local Network";
+"CONNECT_TO_SERVER" = "Connect to Server";
+"USER_LABEL" = "User";
+"PASSWORD_LABEL" = "Password";
+"DISABLE_LABEL" = "Disable";
+"BUTTON_ANONYMOUS_LOGIN" = "Anonymous Login";
+
+"LOCAL_SERVER_REFRESH" = "Refresh";
+"LOCAL_SERVER_LAST_UPDATE" = "Last Updated on %@";
+"LOCAL_SERVER_CONNECTION_FAILED_TITLE" = "SERVER CONNECTION FAILED";
+"LOCAL_SERVER_CONNECTION_FAILED_MESSAGE" = "Please check your server address and credentials";
+
+"CLOUD_SERVICES" = "Cloud Services";
+"LOGIN" = "Login";
+"LOGGED_IN" = "Logged in";
+
+"DROPBOX_DOWNLOAD" = "Download file?";
+"DROPBOX_DL_LONG" = "Would you like to download \"%@\" to your %@?";
+"DROPBOX_LOGIN" = "Login";
+
+"GDRIVE_ERROR_FETCHING_FILES" = "Error while fetching files";
+"GDRIVE_DOWNLOAD_SUCCESSFUL" = "Your file has been successfully downloaded";
+"GDRIVE_DOWNLOAD_SUCCESSFUL_TITLE" = "SUCCESS";
+"GDRIVE_ERROR_DOWNLOADING_FILE" = "An error occured while downloading";
+"GDRIVE_ERROR_DOWNLOADING_FILE_TITLE" = "ERROR";
+
+"DISK_FULL" = "Storage limit reached";
+"DISK_FULL_FORMAT" = "%@ cannot be stored on your %@, because you don't have enough free space left.";
+
+"NUM_OF_FILES" = "%i files";
+"ONE_FILE" = "1 file";
+"NO_FILES" = "No supported files";
+"DOWNLOADING" = "Downloading...";
+"REMAINING_TIME" = "Remaining time: %@";
+"BIOMETRIC_UNLOCK" = "Unlock Media Library\nCancel to enter Passcode";
+
+"Settings" = "Settings"; // plain text key to keep compatibility with InAppSettingsKit's upstream
+"ON" = "On";
+"OFF" = "Off";
+
+"EMPTY_LIBRARY" = "Empty Media Library";
+"EMPTY_LIBRARY_LONG" = "For playback, you can stream media from a server on your local network, from the cloud or synchronize media to your device using iTunes, WiFi Upload or Cloud services.";
+
+"PLAYBACK_SCRUB_HELP" = "Slide your finger down to adjust the scrubbing rate.";
+"PLAYBACK_SCRUB_HIGH" = "High-Speed Scrubbing";
+"PLAYBACK_SCRUB_HALF" = "Half-Speed Scrubbing";
+"PLAYBACK_SCRUB_QUARTER" = "Quarter-Speed Scrubbing";
+"PLAYBACK_SCRUB_FINE" = "Fine Scrubbing";
+"PLAYBACK_POSITION" = "Playback Position";
+"VIDEO_FILTER" = "Video Filters";
+"VIDEO_FILTER_RESET_BUTTON" = "Reset Video Filters";
+"VIDEO_ASPECT_RATIO_BUTTON" = "Switch Video Aspect Ratio";
+"PLAY_PAUSE_BUTTON" = "Play or Pause current playback";
+"BWD_BUTTON" = "Jump Backwards";
+"FWD_BUTTON" = "Jump Forwards";
+"PLAY_BUTTON" = "Play";
+"PAUSE_BUTTON" = "Pause";
+"PLAY_ALL_BUTTON" = "Play all";
+
+"VERSION_FORMAT" = "Version: %@";
+"BASED_ON_FORMAT" = "Based on:<br />%@";
+
+"NEW" = "NEW";
+
+"BUG_REPORT_TITLE" = "Report a bug";
+"BUG_REPORT_MESSAGE" = "Would you like to create a bug report?";
+"BUG_REPORT_BUTTON" = "Open Safari";
+
+"VO_VIDEOPLAYER_TITLE" = "Video Player";
+"VO_VIDEOPLAYER_DOUBLETAP" = "Double tap to show or hide playback controls";
+
+"FIRST_STEPS_WELCOME" = "Welcome";
+"FIRST_STEPS_WELCOME_DETAIL" = "First steps to Sync and Play Your Media.";
+"FIRST_STEPS_ITUNES" = "iTunes File Sync";
+"FIRST_STEPS_ITUNES_DETAILS" = "Connect your %@ to your Mac or PC using the cable.\nOpen iTunes.\nSelect your %@.\nSwitch to the \"Apps\" tab, scroll down and look for rqdMedia.\nTransfer your files.";
+"FIRST_STEPS_WIFI_CONNECT_DETAILS" = "Connect your %@ to the same network as your Mac or PC.";
+"FIRST_STEPS_WIFI_UPLOAD_DETAILS" = "Switch the toggle in the sidebar, enter the URL to the web browser and upload your files.";
+"FIRST_STEPS_CLOUDS" = "Clouds";
+"FIRST_STEPS_CLOUD_UPLOAD_DETAILS" = "Upload your media to Google Drive or Dropbox.";
+"FIRST_STEPS_CLOUD_ACCESS_DETAILS" = "Open the sidebar to select your Cloud provider and access your media for downloading or streaming.";
+"FIRST_STEPS_PLAYBACK" = "Playback";
+"FIRST_STEPS_FLOSS" = "RQDTV is a multi-functional player\nWe hope you'll love it.";
+
+"FIRST_STEPS_TIME" = "Time";
+"FIRST_STEPS_ASPECT" = "Aspect Ratio";
+"FIRST_STEPS_SPEED" = "Speed";
+"FIRST_STEPS_REPEAT" = "Repeat";
+"FIRST_STEPS_SUBTITLES" = "Subtitles Tracks";
+"FIRST_STEPS_AUDIO" = "Audio Tracks";
+"FIRST_STEPS_POSITION" = "Position";
+
+"PLEX_CHECK_ACCOUNT" = "Check your Plex account in settings";
+"PLEX_ERROR_ACCOUNT" = "Plex login Error";
+
+"UNAUTHORIZED" = "Unauthorized";
+
+"SERVER" = "Server";
+"SERVER_PORT" = "Port";
+"NO_SERVER_FOUND" = "No server found";
+"NO_RECENT_STREAMS" = "No stream was played recently";
+
+"WEBINTF_TITLE" = "Sharing via WiFi";
+"WEBINTF_DROPFILES" = "Drop Files";
+"WEBINTF_DROPFILES_LONG" = "Drop files in the window to add them to your %@.<br>Or click on the \"+\" button to use the file picker dialog.";
+"WEBINTF_DOWNLOADFILES" = "Download Files";
+"WEBINTF_DOWNLOADFILES_LONG" = "Just click the file you want to download from your %@.";
+"WEBINTF_TITLE_ATV" = "Remote Playback";
+"WEBINTF_DROPFILES_LONG_ATV" = "Drop files in the window to play them on your %@.<br>Or click on the \"+\" button to use the file picker dialog.";
+"WEBINTF_URL_SENT" = "URL sent successfully.";
+"WEBINTF_URL_EMPTY" = "URL cannot be empty.";
+"WEBINTF_URL_INVALID" = "Not a valid URL.";
+
+
+"NOW_PLAYING" = "Now Playing";
+"PLAY_NOW" = "Play Now";
+"PLAYING" = "Playing";
+"DETAIL" = "Detail";
+
+"VOLUME" = "Volume";
+"DURATION" = "Duration";
+"TITLE" = "Title";
+
+// strings from rqdMediaKit
+"%ld hours %ld minutes remaining" = "%1$ld hours %2$ld minutes remaining";
+"%ld hours %ld minutes" = "%1$ld hours %2$ld minutes";
+"%ld minutes remaining" = "%ld minutes remaining";
+"%ld minutes" = "%ld minutes";
+"%ld minutes %ld seconds remaining" = "%1$ld minutes %2$ld seconds remaining";
+"%ld minutes %ld seconds" = "%1$ld minutes %2$ld seconds";
+"%ld seconds remaining" = "%ld seconds remaining";
+"%ld seconds" = "%ld seconds";
+
+// accessibility labels for the playlist
+"OBJECT_TYPE_SHOW" = "Show";
+"OBJECT_TYPE_SHOW_EPISODE" = "Show episode";
+"OBJECT_TYPE_LABEL" = "Folder";
+"OBJECT_TYPE_ALBUM" = "Album";
+"OBJECT_TYPE_ALBUM_TRACK" = "Album track";
+"OBJECT_TYPE_FILE" = "File";
+"OBJECT_TYPE_FILE_AUDIO" = "Audio file";
+
+"NOT_CONNECTED_TO_PHONE_TITLE" = "Not connected to iPhone";
+"NOT_CONNECTED_TO_PHONE_MESSAGE" = "Please connect your iPhone to perform remote control actions.";
+
+"LONGPRESS_TO_STOP" = "Long-press to stop playback.";
+
+// ATV specific
+"AUDIO_INFO_VC_TITLE" = "Audio Info";
+"CLOUD_LOGIN_LONG" = "To access Cloud Services, sign-in to iCloud on both this Apple TV and an iOS device with the same Apple ID and enable Keychain Sharing in System Settings.\nAfterwards, login to the cloud provider of your choice using the rqdMedia app on your iOS device. Finally, select it on this screen.";
+"ENTER_URL" = "Enter URL to play";
+"HTTP_SERVER_ON" = "Disable Remote Playback";
+"HTTP_SERVER_OFF" = "Enable Remote Playback";
+"CACHED_MEDIA" = "Cached Media";
+"CACHED_MEDIA_LONG" = "Media shown here is stored locally on your Apple TV. Note that contents can be removed by the operating system without prior notice anytime when rqdMedia is not running in case your device runs out of storage.";
+"DOWNLOAD_SUBS_FROM_OSO" = "Download subtitles from OpenSubtitles.org...";
+"FOUND_SUBS" = "Found subtitles";
+"USE_SPDIF" = "Use Pass-through (S/PDIF)";
+
+"PLAYBACK" = "Playback";
+"REPEAT_MODE" = "Repeat";
+"REPEAT_DISABLED" = "Disabled";
+"REPEAT_SINGLE" = "Single";
+"REPEAT_FOLDER" = "Folder";
+
+// Local Network Service Names
+"UPNP_LONG" = "Universal Plug'n'Play (UPnP)";
+"UPNP_SHORT" = "UPnP";
+
+"PLEX_LONG" = "Plex Media Server (via Bonjour)";
+"PLEX_SHORT" = "Plex";
+
+"FTP_LONG" = "File Transfer Protocol (FTP)";
+"FTP_SHORT" = "FTP";
+
+"BONJOUR_FILE_SERVERS" = "BONJOUR File Server";
+"DSM_WORKGROUP" = "Workgroup";
+
+"URL_NOT_SUPPORTED" = "The URL can't be opened";
+
+// Insert %@ where play-pause-glyph should be placed
+"DELETE_ITEM_HINT" = "Press %@ to Delete"; /* Insert %@ where play-pause-glyph should be placed */
+
+"DELETE_INVALID_MESSAGE" = "The selection can't be deleted";
+"DELETE_INVALID_TITLE" = "Invalid Selection";
+"DELETE_MESSAGE" = "Confirm the deletion of the selected files";
+"DELETE_TITLE" = "Delete Selected Files";
+
+//Drag and Drop
+"THIS_FILE" = "This file";
+"NOT_SUPPORTED_FILETYPE" = "%@ is not a supported filetype by rqdMedia";
+"FILE_EXISTS" = "%@ already exists";
+
+/* New strings */
+"PROTOCOL_NOT_SELECTED" = "Protocol not selected";
+"Settings" = "Settings";
+"ERROR" = "Error";
+"OK" = "Ok";
+
+/* New strings */
+"AFNetworking" = "AFNetworking";
+"All Channels" = "All Channels";
+"Custom Player" = "Custom Player";
+"Error" = "Error";
+"Server not reachable or not yet ready to connect." = "Server not reachable or not yet ready to connect.";
+"Tvheadend returned malformed JSON - check your Tvheadend's Character Set for each mux and choose the correct one!" = "Tvheadend returned malformed JSON - check your Tvheadend's Character Set for each mux and choose the correct one!";
+
+/* New strings */
+"AutoRec" = "AutoRec"; /* Auto rec button */
+"Cancel" = "Cancel";
+"Channel" = "Channel";
+"Content Type" = "Content Type";
+"Details" = "Details";
+"EPG not available." = "EPG not available.";
+"Network Error" = "Network Error";
+"No more programs available." = "No more programs available.";
+"Not Available" = "Not Available";
+"Now in" = "Now in";
+"Now" = "Now";
+"Play Channel" = "Play Channel"; /* accessbility */
+"Play" = "Play"; /* toolbar play */
+"Rec Series" = "Rec Series"; /* Record series button */
+"Record" = "Record";
+"Remove" = "Remove"; /* dvr recording remove button */
+"Search Program Title" = "Search Program Title";
+"See Again" = "Related";
+"Succesfully added Auto Recording" = "Succesfully added Auto Recording";
+"Succesfully added Recording" = "Succesfully added Recording";
+"TVHeadend Server" = "TVHeadend Server"; /* .. in settings screen */
+"Tag" = "Tag";
+"Time" = "Time";
+"Today" = "Today";
+"Tomorrow" = "Tomorrow";
+"Yesterday" = "Yesterday";
+"finishes at" = "finishes at"; /* accessibility */
+"in" = "in"; /* accessibility */
+"starts at" = "starts at"; /* accessibility */
+"to" = "to"; /* accessibility */
+
+
+//新增
+
+/* New strings */
+"Add New TVHeadend" = "Add New TVHeadend"; /* .. in settings screen */
+"Address" = "Address"; /* ..in Settings server edit */
+"Advanced Options" = "Advanced Options"; /* ..in Settings server edit */
+"Advanced Settings" = "Advanced Settings"; /* Title 2 in settings screen */
+"Anonymous Statistics" = "Anonymous Statistics"; /* .. in settings screen */
+"Authentication" = "Authentication"; /* ..in Settings server edit */
+"Auto Start Polling" = "Auto Start Polling"; /* .. in settings screen */
+"Choose Mux container (default: NONE, PASS = Passthrough, NONE = Removed)" = "Choose Mux container (default: NONE, PASS = Passthrough, NONE = Removed)"; /* .. in settings screen */
+"Choose Sound Codec (default: AAC, PASS = Passthrough, NONE = Removed). Sound Codec also affects Internal Player, use only AAC or MP3" = "Choose Sound Codec (default: AAC, PASS = Passthrough, NONE = Removed). Sound Codec also affects Internal Player, use only AAC or MP3"; /* .. in settings screen */
+"Choose Video Codec (default: H264, PASS = Passthrough, NONE = Removed)" = "Choose Video Codec (default: H264, PASS = Passthrough, NONE = Removed)"; /* .. in settings screen */
+"Choose transcode resolution" = "Choose transcode resolution"; /* .. in settings screen */
+"Custom Player URL" = "Custom Player URL"; /* .. in settings screen */
+"Draw Image Border" = "Draw Image Border"; /* .. in settings screen */
+"Dynamic based on screen" = "Dynamic based on screen"; /* .. in settings screen */
+"HTSP Port" = "HTSP Port"; /* ..in Settings server edit */
+"Name" = "Name"; /* ..in Settings server edit */
+"None" = "None"; /* .. in settings screen */
+"Order Channels" = "Order Channels"; /* .. in settings screen */
+"POLLING_MESSAGE" = "By disabling Polling, you'll disable Status updates, Log and every automatic data refresh. You can activate / disable polling at every application start in the Status screen upper right button. See the FAQ for more info."; /* .. in settings screen */
+"Password" = "Password"; /* ..in Settings server edit */
+"Port" = "Port"; /* ..in Settings server edit */
+"Right Panel" = "Right Panel"; /* .. in settings screen */
+"SETTINGS_DEINTERLACE" = "rqdMedia Deinterlace"; /* ..in Settings server edit */
+"SETTINGS_NETWORK_CACHING_TITLE" = "rqdMedia Network Caching Level"; /* ..in Settings server edit */
+"SSH Password" = "SSH Password"; /* ..in Settings server edit */
+"SSH Port Forward" = "SSH Port Forward"; /* ..in Settings server edit */
+"SSH Port" = "SSH Port"; /* ..in Settings server edit */
+"SSH Username" = "SSH Username"; /* ..in Settings server edit */
+"Show Log" = "Show Log"; /* .. in settings screen */
+"Show Status" = "Show Status"; /* .. in settings screen */
+"TVHeadend Server Details" = "TVHeadend Server Details"; /* ..in Settings server edit */
+"TVHeadend Servers" = "TVHeadend Servers"; /* Title 1 in settings screen */
+"Transcode Mux" = "Transcode Mux"; /* .. in settings screen */
+"Transcode Resolution" = "Transcode Resolution"; /* .. in settings screen */
+"Transcode Settings" = "Transcode Settings"; /* Title 3 in settings screen */
+"Transcode Sound Codec" = "Transcode Sound Codec"; /* .. in settings screen */
+"Transcode Video Codec" = "Transcode Video Codec"; /* .. in settings screen */
+"Use HTTPS" = "Use HTTPS"; /* ..in Settings server edit */
+"Username" = "Username"; /* ..in Settings server edit */
+"Web Root" = "Web Root"; /* ..in Settings server edit */
+"Website Address in Status" = "Website Address in Status"; /* .. in settings screen */
+"by Name" = "by Name"; /* .. in settings screen */
+"by Number" = "by Number"; /* .. in settings screen */
+
+
+//新增
+/** rqdMedia **/
+"CHOOSE_AUDIO_TRACK" = "Choose Audio Track";
+"CHOOSE_SUBTITLE_TRACK" = "Choose Subtitle Track";
+
+"PLAYING_EXTERNALLY_TITLE" = "TV Connected";
+"PLAYING_EXTERNALLY_DESC" = "This video is playing on the TV";
+
+"VFILTER_HUE" = "Hue";
+"VFILTER_CONTRAST" = "Contrast";
+"VFILTER_BRIGHTNESS" = "Brightness";
+"VFILTER_SATURATION" = "Saturation";
+"VFILTER_GAMMA" = "Gamma";
+
+"PLAYBACK_FAILED" = "Playback failed";
+"AR_CHANGED" = "Aspect Ratio: %@";
+"DEFAULT" = "Default";
+"FILL_TO_SCREEN" = "Crop to fill screen";
+"PLAYBACK_SPEED" = "Playback speed";
+"SPU_DELAY" = "Subtitles delay";
+"AUDIO_DELAY" = "Audio delay";
+
+"BUTTON_EDIT" = "Edit";
+"BUTTON_DONE" = "Done";
+"BUTTON_CANCEL" = "Cancel";
+"BUTTON_SAVE" = "Save"; /* Save */
+"BUTTON_DOWNLOAD" = "Download";
+"BUTTON_DELETE" = "Delete";
+"BUTTON_OK" = "OK";
+"BUTTON_BACK" = "Back";
+"BUTTON_CONNECT" = "Connect";
+"BUTTON_RENAME" = "Rename";
+"BUTTON_LEARN_MORE" = "Learn More";
+"PRIVATE_PLAYBACK_TOGGLE" = "Private Playback";
+"SCAN_SUBTITLE_TOGGLE" = "Scan for Subtitles (http-only)";
+
+"UPGRADING_LIBRARY" = "Upgrading Media Library";
+"UNTITLED_SHOW" = "Untitled Show";
+"UNKNOWN" = "Unknown";
+
+"NETWORK_TITLE" = "Network Stream";
+"OPEN_NETWORK_HELP" = "Enter any HTTP, RTSP, RTMP, MMS, FTP or UDP/RTP address to open the stream directly.";
+"ABOUT_APP" = "About rqdMedia for iOS";
+"OPEN_rqdMedia_MENU" = "Open rqdMedia sidebar menu";
+"HTTP_UPLOAD_SERVER_OFF" = "Inactive Server";
+"HTTP_UPLOAD_NO_CONNECTIVITY" = "No active WiFi connection";
+"OPEN_STREAM_OR_DOWNLOAD" = "Would you like to download or play this URL?";
+
+"HTTP_DOWNLOAD_FAILED" = "Download failed with HTTP code %i";
+"HTTP_FILE_CREATION_FAILED" = "File creation failed";
+"HTTP_DOWNLOAD_CANCELLED" = "Download canceled by user";
+
+"DOWNLOAD_FROM_HTTP_HELP" = "Enter an address to download the file to your %@.";
+"DOWNLOAD_FROM_HTTP" = "Downloads";
+"ERROR_NUMBER" = "Error %i occured";
+"DOWNLOAD_FAILED" = "Download failed";
+"FILE_NOT_SUPPORTED" = "File format not supported";
+"FILE_NOT_SUPPORTED_LONG" = "The file format used by %@ is not supported by this version of rqdMedia for iOS.";
+"SCHEME_NOT_SUPPORTED" = "Address scheme not supported";
+"SCHEME_NOT_SUPPORTED_LONG" = "The address scheme (%@) is not supported. Please use an address starting with HTTP, HTTPS or FTP.";
+"LIBRARY_ALL_FILES" = "All Files";
+"LIBRARY_MUSIC" = "Music Albums";
+"LIBRARY_SERIES" = "TV Shows";
+"LIBRARY_TRACKS" = "%i Tracks";
+"LIBRARY_SINGLE_TRACK" = "%i Track";
+"LIBRARY_EPISODES" = "%i Episodes, %i unread";
+"LIBRARY_SINGLE_EPISODE" = "%i Episode, %i unread";
+"LIBRARY_TRACK_N" = "Track %i";
+"LIBRARY_MINUTES_LEFT" = "%@m left";
+"RENAME_MEDIA_TO" = "Enter new name for %@";
+
+"FOLDER_EMPTY" = "Empty Folder";
+"FOLDER_EMPTY_LONG" = "To add files tap Edit, choose the files you want, click the folder-button and select this folder.";
+"FOLDER_INVALID_TYPE_TITLE" = "Invalid file types";
+"FOLDER_INVALID_TYPE_MESSAGE" = "You can only take two files to form a folder or add a single file to an existing folder.";
+"FOLDER_CHOOSE_NAME_TITLE" = "New Folder";
+"FOLDER_CHOOSE_NAME_MESSAGE" = "Enter a title for your folder";
+"FOLDER_NAME_PLACEHOLDER" = "Folder Title";
+"FOLDER_NAME_DUPLICATE_TITLE" = "Title exists";
+"FOLDER_NAME_DUPLICATE_MESSAGE" = "Please choose a different title";
+"SELECT_FOLDER" = "Select a Folder";
+
+"SHARING_ACTION_SHEET_TITLE_CHOOSE_FILE" = "Choose a file to open:";
+"SHARING_ACTIVITY_OPEN_IN_TITLE" = "Open In...";
+"SHARING_ERROR_NO_FILES" = "Could not find any files to share";
+"SHARING_ERROR_NO_APPLICATIONS" = "Could not find any applications to open this type of file";
+"SHARING_SUCCESS_CAMERA_ROLL" = "File was successfully saved to the Camera Roll";
+
+"SECTION_HEADER_LIBRARY" = "Media Library";
+"SECTION_HEADER_NETWORK" = "Network";
+
+"LOCAL_NETWORK" = "Local Network";
+"CONNECT_TO_SERVER" = "Connect to Server";
+"USER_LABEL" = "User";
+"PASSWORD_LABEL" = "Password";
+
+"LOCAL_SERVER_REFRESH" = "Refresh";
+"LOCAL_SERVER_LAST_UPDATE" = "Last Updated on %@";
+"LOCAL_SERVER_CONNECTION_FAILED_TITLE" = "SERVER CONNECTION FAILED";
+"LOCAL_SERVER_CONNECTION_FAILED_MESSAGE" = "Please check your server address and credentials";
+
+"DROPBOX_DOWNLOAD" = "Download file?";
+"DROPBOX_DL_LONG" = "Would you like to download \"%@\" to your %@?";
+"DROPBOX_LOGIN" = "Login";
+
+"GDRIVE_ERROR_FETCHING_FILES" = "Error while fetching files";
+"GDRIVE_DOWNLOAD_SUCCESSFUL" = "Your file has been successfully downloaded";
+"GDRIVE_DOWNLOAD_SUCCESSFUL_TITLE" = "SUCCESS";
+"GDRIVE_ERROR_DOWNLOADING_FILE" = "An error occured while downloading";
+"GDRIVE_ERROR_DOWNLOADING_FILE_TITLE" = "ERROR";
+
+"NUM_OF_FILES" = "%i files";
+"ONE_FILE" = "1 file";
+"NO_FILES" = "No supported files";
+"DOWNLOADING" = "Downloading...";
+"REMAINING_TIME" = "Remaining time: %@";
+
+"Settings"="Settings"; // plain text key to keep compatibility with InAppSettingsKit's upstream
+
+"EMPTY_LIBRARY" = "Empty Media Library";
+"EMPTY_LIBRARY_LONG" = "For playback, you can stream media from a server on your local network, from the cloud or synchronize media to your device using iTunes, WiFi Upload or Cloud services.";
+
+"PLAYBACK_SCRUB_HELP" = "Slide your finger down to adjust the scrubbing rate.";
+"PLAYBACK_SCRUB_HIGH" = "High-Speed Scrubbing";
+"PLAYBACK_SCRUB_HALF" = "Half-Speed Scrubbing";
+"PLAYBACK_SCRUB_QUARTER" = "Quarter-Speed Scrubbing";
+"PLAYBACK_SCRUB_FINE" = "Fine Scrubbing";
+"PLAYBACK_POSITION" = "Playback Position";
+"VIDEO_FILTER" = "Video Filters";
+"VIDEO_FILTER_RESET_BUTTON" = "Reset Video Filters";
+"VIDEO_ASPECT_RATIO_BUTTON" = "Switch Video Aspect Ratio";
+"PLAY_PAUSE_BUTTON" = "Play or Pause current playback";
+"BWD_BUTTON" = "Jump Backwards";
+"FWD_BUTTON" = "Jump Forwards";
+
+"VERSION_FORMAT" = "Version: %@";
+"BASED_ON_FORMAT" = "Based on:<br />%@";
+
+"NEW" = "NEW";
+
+"BUG_REPORT_TITLE" = "Report a bug";
+"BUG_REPORT_MESSAGE" = "Would you like to create a bug report?";
+"BUG_REPORT_BUTTON" = "Open Safari";
+
+"VO_VIDEOPLAYER_TITLE" = "Video Player";
+"VO_VIDEOPLAYER_DOUBLETAP" = "Double tap to show or hide playback controls";
+
+"FIRST_STEPS_WELCOME" = "Welcome";
+"FIRST_STEPS_WELCOME_DETAIL" = "First steps to Sync and Play Your Media.";
+"FIRST_STEPS_ITUNES" = "iTunes File Sync";
+"FIRST_STEPS_ITUNES_DETAILS" = "Connect your %@ to your Mac or PC using the cable.\nOpen iTunes.\nSelect your %@.\nSwitch to the \"Apps\" tab, scroll down and look for rqdMedia.\nTransfer your files.";
+"FIRST_STEPS_WIFI_CONNECT_DETAILS" = "Connect your %@ to the same network as your Mac or PC.";
+"FIRST_STEPS_WIFI_UPLOAD_DETAILS" = "Switch the toggle in the sidebar, enter the URL to the web browser and upload your files.";
+"FIRST_STEPS_CLOUDS" = "Clouds";
+"FIRST_STEPS_CLOUD_UPLOAD_DETAILS" = "Upload your media to Google Drive or Dropbox.";
+"FIRST_STEPS_CLOUD_ACCESS_DETAILS" = "Open the sidebar to select your Cloud provider and access your media for downloading or streaming.";
+"FIRST_STEPS_PLAYBACK" = "Playback";
+"FIRST_STEPS_FLOSS" = "RQDTV is a multi-functional player\nWe hope you'll love it.";
+
+"FIRST_STEPS_TIME" = "Time";
+"FIRST_STEPS_ASPECT" = "Aspect Ratio";
+"FIRST_STEPS_SPEED" = "Speed";
+"FIRST_STEPS_REPEAT" = "Repeat";
+"FIRST_STEPS_SUBTITLES" = "Subtitles Tracks";
+"FIRST_STEPS_AUDIO" = "Audio Tracks";
+"FIRST_STEPS_POSITION" = "Position";
+
+
+"WEBINTF_TITLE" = "Sharing via WiFi";
+"WEBINTF_DROPFILES" = "Drop Files";
+"WEBINTF_DROPFILES_LONG" = "Drop files in the window to add them to your %@.<br>Or click on the \"+\" button to use the file picker dialog.";
+"WEBINTF_DOWNLOADFILES" = "Download Files";
+"WEBINTF_DOWNLOADFILES_LONG" = "Just click the file you want to download from your %@.";
+
+"SETTINGS_NETWORK_CACHING_TITLE" = "rqdMedia Network Caching Level"; /* ..in Settings server edit */
+"SETTINGS_DEINTERLACE" = "rqdMedia Deinterlace"; /* ..in Settings server edit */
+
+/** rqdMedia END **/
+
+
+
+/* .. in settings screen */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* .. in settings screen */
+"Add New TVHeadend" = "Add New TVHeadend"; /* .. in settings screen */
+
+/* Title 2 in settings screen */
+"Advanced Settings" = "Advanced Settings"; /* Title 2 in settings screen */
+"Advanced Options" = "Advanced Options"; /* ..in Settings server edit */
+
+/* No comment provided by engineer. */
+"All Channels" = "All Channels";
+
+/* .. in settings screen */
+"Anonymous Statistics" = "Anonymous Statistics"; /* .. in settings screen */
+
+/* Question in Alert view */
+
+/* ..in Settings server edit */
+"Authentication" = "Authentication"; /* ..in Settings server edit */
+
+/* .. in settings screen */
+"Auto Start Polling" = "Auto Start Polling"; /* .. in settings screen */
+
+/* .. in settings screen */
+"by Name" = "by Name"; /* .. in settings screen */
+
+/* .. in settings screen */
+"by Number" = "by Number"; /* .. in settings screen */
+
+/* .. in settings screen */
+
+/* .. in settings screen */
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Channel" = "Channel";
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+"Custom Player" = "Custom Player";
+
+/* .. in settings screen */
+"Custom Player URL" = "Custom Player URL"; /* .. in settings screen */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* .. in settings screen */
+
+/* .. in settings screen */
+
+/* ..in Settings server edit */
+"Name" = "Name"; /* ..in Settings server edit */
+
+/* No comment provided by engineer. */
+"Network Error" = "Network Error";
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+"No more programs available." = "No more programs available.";
+
+/* No comment provided by engineer. */
+
+/* .. in settings screen */
+"Order Channels" = "Order Channels"; /* .. in settings screen */
+
+/* ..in Settings server edit */
+"Password" = "Password"; /* ..in Settings server edit */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* ..in Settings server edit */
+"Port" = "Port"; /* ..in Settings server edit */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* ..in Settings server edit */
+"Address" = "Address"; /* ..in Settings server edit */
+"Use HTTPS" = "Use HTTPS"; /* ..in Settings server edit */
+"Web Root" = "Web Root"; /* ..in Settings server edit */
+
+/* ..in Settings server edit */
+"SSH Password" = "SSH Password"; /* ..in Settings server edit */
+
+/* ..in Settings server edit */
+"SSH Port" = "SSH Port"; /* ..in Settings server edit */
+
+/* ..in Settings server edit */
+"SSH Port Forward" = "SSH Port Forward"; /* ..in Settings server edit */
+
+/* ..in Settings server edit */
+"SSH Username" = "SSH Username"; /* ..in Settings server edit */
+
+/* Auto rec edit - start around */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+"Succesfully added Auto Recording" = "Succesfully added Auto Recording";
+
+/* No comment provided by engineer. */
+"Succesfully added Recording" = "Succesfully added Recording";
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+/* .. in settings screen */
+
+/* No comment provided by engineer. */
+"Tag" = "Tag";
+
+/* No comment provided by engineer. */
+"Time" = "Time";
+
+
+/* .. in settings screen */
+"TVHeadend Server" = "TVHeadend Server"; /* .. in settings screen */
+
+/* ..in Settings server edit */
+"TVHeadend Server Details" = "TVHeadend Server Details"; /* ..in Settings server edit */
+
+/* Title 1 in settings screen */
+"TVHeadend Servers" = "TVHeadend Servers"; /* Title 1 in settings screen */
+
+"Play" = "Play"; /* toolbar play */
+"Remove" = "Remove"; /* dvr recording remove button */
+
+/* ..in Settings server edit */
+"Username" = "Username"; /* ..in Settings server edit */
+"Draw Image Border" = "Draw Image Border"; /* .. in settings screen */
+"Transcode Resolution" = "Transcode Resolution"; /* .. in settings screen */
+"Transcode Settings" = "Transcode Settings"; /* Title 3 in settings screen */
+"Transcode Video Codec" = "Transcode Video Codec"; /* .. in settings screen */
+"Transcode Sound Codec" = "Transcode Sound Codec"; /* .. in settings screen */
+"Transcode Mux" = "Transcode Mux"; /* .. in settings screen */
+"Choose Video Codec (default: H264, PASS = Passthrough, NONE = Removed)" = "Choose Video Codec (default: H264, PASS = Passthrough, NONE = Removed)"; /* .. in settings screen */
+"Choose Sound Codec (default: AAC, PASS = Passthrough, NONE = Removed). Sound Codec also affects Internal Player, use only AAC or MP3" = "Choose Sound Codec (default: AAC, PASS = Passthrough, NONE = Removed). Sound Codec also affects Internal Player, use only AAC or MP3"; /* .. in settings screen */
+"Choose Mux container (default: NONE, PASS = Passthrough, NONE = Removed)" = "Choose Mux container (default: NONE, PASS = Passthrough, NONE = Removed)"; /* .. in settings screen */
+"Right Panel" = "Right Panel"; /* .. in settings screen */
+"Website Address in Status" = "Website Address in Status"; /* .. in settings screen */
+"Dynamic based on screen" = "Dynamic based on screen"; /* .. in settings screen */
+"Show Status" = "Show Status"; /* .. in settings screen */
+"Show Log" = "Show Log"; /* .. in settings screen */
+"None" = "None"; /* .. in settings screen */
+
+/* No comment provided by engineer. */
+
+/* No comment provided by engineer. */
+
+"Record" = "Record";
+"Now" = "Now";
+"Now in" = "Now in";
+"AutoRec" = "AutoRec"; /* Auto rec button */
+
+/* segments for recordings screen */
+"AutoRec" = "AutoRec"; /* Auto rec button */
+
+/* segments for detail program */
+"Details" = "Details";
+"See Again" = "Related";
+
+"Settings" = "Settings";
+"Search Program Title" = "Search Program Title";
+
+"POLLING_MESSAGE" = "By disabling Polling, you'll disable Status updates, Log and every automatic data refresh. You can activate / disable polling at every application start in the Status screen upper right button. See the FAQ for more info."; /* .. in settings screen */
+"Content Type" = "Content Type";
+"Not Available" = "Not Available";
+
+"Today" = "Today";
+"Tomorrow" = "Tomorrow";
+"Yesterday" = "Yesterday";
+"Currently playing" = "Currently playing"; /* 当前正在播放 */
+
+/* New strings */
+"Are your sure you want to remove the recording?" = "Are your sure you want to remove the recording?"; /* Question in Alert view */
+"Completed" = "Completed";
+"Failed" = "Failed";
+"No auto recordings found." = "No auto recordings found.";
+"No recordings found." = "No recordings found.";
+"No" = "No";
+"Recordings" = "Recordings";
+"Remove recording" = "Remove recording";
+"Succesfully Canceled Recording" = "Succesfully Canceled Recording";
+"Succesfully Deleted Auto Recording" = "Succesfully Deleted Auto Recording";
+"Succesfully Deleted Recording" = "Succesfully Deleted Recording";
+"Upcoming" = "Upcoming";
+"Yes" = "Yes";
+
+/* New strings */
+"Priority" = "Priority";
+"Start Around" = "Start Around"; /* Auto rec edit - start around */

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TVTagListTableItems">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label clipsSubviews="YES" userInteractionEnabled="NO" tag="100" contentMode="left" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Im-Zf-yCo">
+                        <rect key="frame" x="55" y="10" width="48" height="23"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" red="0.23577216270000001" green="0.23576508460000001" blue="0.23576909300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="shadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <size key="shadowOffset" width="0.0" height="1"/>
+                    </label>
+                    <label clipsSubviews="YES" userInteractionEnabled="NO" tag="101" contentMode="left" text="NNN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lMX-rO-Tks">
+                        <rect key="frame" x="275" y="9" width="40" height="25"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="gFG-KD-rfh"/>
+                            <constraint firstAttribute="width" constant="40" id="guG-Eq-xkj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.59999999999999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsV-4V-Nfh">
+                        <rect key="frame" x="10" y="1" width="40" height="40"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="1Ld-yY-mYn"/>
+                            <constraint firstAttribute="height" constant="40" id="aQI-kV-frD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tsV-4V-Nfh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="19k-WF-Dck"/>
+                    <constraint firstItem="lMX-rO-Tks" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="csP-2R-8fj"/>
+                    <constraint firstItem="3Im-Zf-yCo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="lLR-I9-sEf"/>
+                    <constraint firstAttribute="trailing" secondItem="lMX-rO-Tks" secondAttribute="trailing" constant="5" id="pZN-zq-rE3"/>
+                    <constraint firstItem="tsV-4V-Nfh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qd4-ln-eIo"/>
+                    <constraint firstItem="3Im-Zf-yCo" firstAttribute="leading" secondItem="tsV-4V-Nfh" secondAttribute="trailing" constant="5" id="tQb-VE-4k5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+        </tableViewCell>
+    </objects>
+</document>
