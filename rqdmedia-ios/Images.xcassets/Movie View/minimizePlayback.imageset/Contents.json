@@ -2,18 +2,16 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Arrow_15x05.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "Arrow_30x10.png"
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "Arrow_45x15.png"
+      "filename" : "Arrow_45x15.png",
+      "scale" : "3x"
     }
   ],
   "info" : {

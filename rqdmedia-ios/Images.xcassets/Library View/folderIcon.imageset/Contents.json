@@ -2,7 +2,6 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "filename" : "folderIcon.png",
       "scale" : "1x"
     },
     {
@@ -16,7 +15,6 @@
     },
     {
       "idiom" : "ipad",
-      "filename" : "folderIcon~ipad.png",
       "scale" : "1x"
     },
     {

@@ -2,7 +2,6 @@
   "images" : [
     {
       "idiom" : "iphone",
-      "filename" : "tvShow.png",
       "scale" : "1x"
     },
     {
@@ -16,7 +15,6 @@
     },
     {
       "idiom" : "ipad",
-      "filename" : "tvShow~iPad.png",
       "scale" : "1x"
     },
     {
