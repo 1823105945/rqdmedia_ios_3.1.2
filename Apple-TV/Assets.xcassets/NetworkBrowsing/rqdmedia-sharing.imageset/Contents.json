@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "tv",
-      "filename" : "rqdmedia-server-icon.png",
       "scale" : "1x"
     },
     {
       "idiom" : "tv",
-      "filename" : "rqdmedia-server-icon@2x.png",
+      "filename" : "500x500.png",
       "scale" : "2x"
     }
   ],
